@@ -1,0 +1,52 @@
+.navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand img{
+    height: 60px;
+    background: white;
+    padding: 2px;
+}
+.sidebar {
+   width: 300px;
+}
+@media screen and (max-width: 991px){
+    .sidebar {
+        width: 236px;
+    }
+}
+.section-dividor{
+    width: 50%;
+    border-top: 2px dashed #3b86d17d;
+    margin: 15px 0;
+}
+.sidebar .nav .nav-item.active > .nav-link{
+    background: #844fc147!important;
+    position: relative;
+}
+
+/* Delete Screen */
+.delete_cards {
+    padding: 30px;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+.delete_cards .image_container img {
+    height: 160px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+
+/* User Profiles CSS */
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+}
+
+/* Modal Dialog Backgorund */
+.modal-content {
+    background: #40e0d0!important;
+}
